@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="background">
+        <div class = "title  batman">
+            <h3>ANIMI-FORMS</h3>
+        </div>
+        <form name="ANIMI-FORMS" onsubmit="Validation(event)">
+            
+            <h4 class = "title">ANIMI-Name</h4>
+            <input type="text" id="name1" class="input" required><br>
+            <h4 class = "title" >ANIMI-(ORIGIN-COUNTRY)</h4>
+            <select id="name2" class="dropdown">
+                <option value="Pakistan">Select an option</option>
+                <option  value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+              </select>
+            <h4 class = "title">No.of.Episodes</h4>
+            <input id="name3" class="input"><br>
+            <h4 class = "title">YOUR RATING</h4>
+            <input type="text" id="name4" class="input" required><br>
+            <h4 class = "title">REWARDS</h4>
+            <input type="text" id="name5" class="input" required><br>
+        </form>
+        <div style="margin-left: 50%; margin-top: -500px">
+            <h4 class = "title">DESCRIPTION ABOUT ANIMI</h4>
+            <textareaid="Episodes-count" class="descriptions"></textarea>
+            <input id="Episodes-count" type="text"class="descriptions"><br>
+            <input id="submit-form" type="submit" value="SUBMIT" class="button">
+        </div>
+    </body>
+    <script src="index.js">
+    </script>
+</html>
